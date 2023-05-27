@@ -1,12 +1,12 @@
 # TrackerModelSwapper
 
-A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https://neos.com/) that allows you to replace the vive tracker model used in fullbody.
+A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https://neos.com/) that allows you to replace the vive tracker model used to visualize trackers.
 
 ## ⚠️ WARNING ⚠️
 
-Because of how the game loads objects you MUST sae the object through the inspector AND the local position and rotation of the topmost object is significant, it's recommended to keep the position at `0,0,0`, and the `Z` axis should be the forward direction on your tracker.
+Because of how the game loads objects you MUST save the object through the inspector AND the local position and rotation of the saved object is significant, it's recommended to keep the position at `0,0,0`, and the `Z` axis should be the forward direction on your tracker.
 
-Additionally it is recommended to keep the naming scheme similar to the original, because some user made tools search for objects by name. 
+Additionally it is recommended to keep the naming scheme similar to the original, because some user made tools search for the vive tracker objects by name.
 
 ## Installation
 1. Install [NeosModLoader](https://github.com/zkxs/NeosModLoader).
